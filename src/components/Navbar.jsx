@@ -34,7 +34,7 @@ function Navbar() {
 				<a href="https://www.twitter.com/wix" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
 					<svg className="w-6 h-6 text-black hover:text-blue-600 transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557a9.83 9.83 0 01-2.828.775 4.932 4.932 0 002.165-2.724c-.951.564-2.005.974-3.127 1.195a4.916 4.916 0 00-8.38 4.482C7.691 8.094 4.066 6.13 1.64 3.161c-.427.734-.666 1.581-.666 2.475 0 1.708.87 3.216 2.188 4.099a4.904 4.904 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.936 4.936 0 01-2.224.084c.627 1.956 2.444 3.377 4.6 3.419A9.867 9.867 0 010 21.543a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A9.936 9.936 0 0024 4.557z"/></svg>
 				</a>
-				<a href="https://il.linkedin.com/company/wix-com?trk=public_jobs_topcard_logo" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+				<a href="https://www.linkedin.com/company/interlogistics-automation-technologies-pvt-ltd/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
 					<svg className="w-6 h-6 text-black hover:text-blue-600 transition-colors" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.868 0-2.156 1.459-2.156 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.597 2.001 3.597 4.601v5.595z"/></svg>
 				</a>
 			</div>
