@@ -28,13 +28,13 @@ function About() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center my-12">
           <div className="bg-blue-100 rounded-xl p-10 shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
             <div className="mb-2">
-              <CountUp end={1998} duration={1.2} />
+              <CountUp end={2018} duration={1.2} />
             </div>
             <p className="text-gray-700 text-lg font-semibold">Year Company Started</p>
           </div>
           <div className="bg-blue-100 rounded-xl p-10 shadow-lg transform transition duration-300 hover:scale-105 hover:shadow-2xl">
             <div className="mb-2">
-              <CountUp end={50} duration={1.2} suffix="+" />
+              <CountUp end={25} duration={1.2} suffix="+" />
             </div>
             <p className="text-gray-700 text-lg font-semibold">Total Number of Customers</p>
           </div>
