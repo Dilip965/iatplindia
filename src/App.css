@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes fadeinup {
+	0% { opacity: 0; transform: translateY(28px); }
+	100% { opacity: 1; transform: translateY(0); }
+}
+.animate-fadeinup {
+	animation: fadeinup 800ms cubic-bezier(0.4,0,0.2,1) both;
+}
+
+@keyframes cardin {
+	0% { opacity: 0; transform: scale(0.97); }
+	100% { opacity: 1; transform: scale(1); }
+}
+.animate-cardin {
+	animation: cardin 700ms cubic-bezier(0.4,0,0.2,1) both;
+}
+
+@keyframes zoomIn {
+	0% { transform: scale(1.02); opacity: 0.85; }
+	100% { transform: scale(1); opacity: 1; }
+}
+.animate-zoomIn { animation: zoomIn 1s ease both; }
+
+@keyframes slowspin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+.animate-spin-slow { animation: slowspin 18s linear infinite; }
+
+@keyframes pulseText { 0% { transform: translateY(0); } 50% { transform: translateY(-4px); } 100% { transform: translateY(0); } }
+.animate-textPulse { animation: pulseText 3s ease-in-out infinite; }
+
+/* Small helpers to improve readability on mobile */
+.container { max-width: 1100px; }
+.hero-overlay { background: linear-gradient(180deg, rgba(3,7,18,0.75), rgba(3,7,18,0.6)); }
+
+/* reduce excessive shadow on mobile */
+@media (max-width: 640px) {
+	.shadow-lg { box-shadow: 0 6px 18px rgba(12, 31, 63, 0.08); }
+}
